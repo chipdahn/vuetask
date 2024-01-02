@@ -2,10 +2,15 @@
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 import Header from './components/Header.vue';
+import Sidebar from './components/Sidebar.vue'
 </script>
 
 <template>
   <Header/>
+  <main>
+    <Sidebar/>
+
+  </main>
   
   <!-- <header>
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
